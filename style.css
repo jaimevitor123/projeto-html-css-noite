@@ -3,4 +3,26 @@
 }
 a{
 text-decoration: none;
+border: 1px solid rgba(128, 0, 128, 0.589);
+border-radius: 6px;
+color: yellow;
+background-color: rgba(128, 0, 128, 0.425);
+padding: 2px;
 }
+a:hover{
+  text-decoration: underline;
+}
+div{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  color: gold;
+  margin-top: 2em;
+  background-image: url("Imagens/imagem-de-fundo-rgb-invertida.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.java{
+  background-image: url("Imagens/fundo-de-luzes-de-neon-de-formas-geometricas_23-2148416028.jpg");
+}
+

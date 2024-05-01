@@ -1,0 +1,20 @@
+a{
+text-decoration: none;
+color: slateblue;
+}
+a:hover{
+  text-decoration: underline;
+}
+ul{
+  color: darkslategray;
+}
+.botao2{
+  border: 1px solid black;
+  border-radius: 5px;
+  color: rgb(183, 0, 255);
+  background-color: rgb(52, 160, 255);
+  padding: 2px;
+}
+.botao3{
+  color: white;
+}
