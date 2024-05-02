@@ -8,13 +8,25 @@ a:hover{
 ul{
   color: darkslategray;
 }
+li{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 2px;
+  width: 70px;
+  text-align: center;
+}
+div{
+  border: 1px solid black;
+  border-radius: 8px;
+
+}
 .botao2{
   border: 1px solid black;
   border-radius: 5px;
   color: rgb(183, 0, 255);
   background-color: rgb(52, 160, 255);
   padding: 2px;
+  width: 70px;
 }
-.botao3{
-  color: white;
-}
+
+
