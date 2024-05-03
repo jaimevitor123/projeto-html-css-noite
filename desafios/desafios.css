@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 a{
 text-decoration: none;
 color:cyan;
@@ -5,9 +7,12 @@ color:cyan;
 h1{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  color:rgba(0, 255, 255, 0.692);
 }
 h2{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: RobotoSlab;
+  text-align: center;
+  color:cyan;
 }
 a:hover{
   text-decoration: underline;
@@ -27,7 +32,11 @@ li{
 div{
   border: 1px solid black;
   border-radius: 8px;
-
+}
+main{
+  background-image: url("rgb-de-fundo-azul.jpg");
+  background-size: cover;
+  padding: 40px;
 }
 .botao2{
   border: 1px solid black;

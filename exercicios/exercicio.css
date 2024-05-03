@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+main{
+  background-image: url("rgb-de-fundo-vermelho-2-ivertida.jpg");
+  background-size: cover;
+  padding: 40px;
+}
 a {
   text-decoration: none;
   color: rgba(255, 217, 0, 0.774);
@@ -5,7 +12,14 @@ a {
   border-radius: 5px;
   background-color: rgba(255, 0, 0, 0.699);
 }
-
+h1{
+  color: rgba(255, 217, 0, 0.836);
+}
+h2{
+  font-family: RobotoSlab;
+  text-align: center;
+  color: gold;
+}
 a:hover {
   text-decoration: underline;
 }
@@ -21,10 +35,10 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 .botao {
-  border: 1px solid darkred;
+  border: 1px solid rgba(0, 0, 153, 0.753);
   border-radius: 5px;
   color: rgba(255, 217, 0, 0.774);
-  background-color: rgba(255, 0, 0, 0.699);
+  background-color: rgba(117, 117, 252, 0.753);
   padding: 2px;
 }
 .botao3 {
@@ -34,7 +48,6 @@ div {
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid black;
   border-radius: 8px;
-  color: limegreen;
   background-image: url("rgb-vermelho-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,18 +55,16 @@ div {
 }
 .botao4 {
   background-image: url("rgb-vermelho-3.jpg");
-  color: lawngreen;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 .botao5 {
   background-image: url("rgb-vermelho-2.jpg");
-  color: green;
 }
 .botao6 {
   background-image: url("rgb-vermelho-6.jpg");
-  color: chartreuse;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
 }
+

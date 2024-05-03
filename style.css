@@ -6,13 +6,21 @@ body{
 *{
   font-family: Arial, Helvetica, sans-serif;
 }
-a{
-text-decoration: none;
-border: 1px solid rgba(128, 0, 128, 0.589);
+.link1{
+  text-decoration: none;
+border: 1px solid cyan;
 border-radius: 6px;
 color: yellow;
-background-color: rgba(128, 0, 128, 0.425);
+background-color: rgba(0, 0, 153, 0.753);
 padding: 2px;
+}
+.link2{
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 153, 0.753);
+  border-radius: 6px;
+  color: yellow;
+  background-color: rgba(0, 41, 153, 0.74);
+  padding: 2px;
 }
 a:hover{
   text-decoration: underline;
