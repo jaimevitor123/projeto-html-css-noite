@@ -1,19 +1,28 @@
 a{
 text-decoration: none;
-color: slateblue;
+color:cyan;
+}
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
 }
 a:hover{
   text-decoration: underline;
 }
 ul{
-  color: darkslategray;
+  color:blueviolet;
 }
 li{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 2px;
   width: 70px;
   text-align: center;
+  background-color: rgba(0, 0, 139, 0.616);
+  margin-bottom: 5px;
+  padding: 3px;
 }
 div{
   border: 1px solid black;
@@ -27,6 +36,22 @@ div{
   background-color: rgb(52, 160, 255);
   padding: 2px;
   width: 70px;
+}
+.botao7{
+ background-image: url("rgb-azu-5.jpg");
+  background-size: cover;
+}
+.botao8{
+background-image: url("rgb-azul-1.jpg");
+  background-size: cover;
+}
+.botao9{
+  background-image: url("rgb-azul-2.jpg");
+  background-size: cover;
+}
+.botao10{
+  background-image: url("rgb-azul-6.jpg");
+  background-size: cover;
 }
 
 
